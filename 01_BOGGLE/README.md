@@ -44,3 +44,5 @@ KARA NO
 PANDORA NO
 GIAZAPX YES
 ```
+
+출처 : [https://algospot.com/judge/problem/read/BOGGLE](https://algospot.com/judge/problem/read/BOGGLE)
