@@ -50,4 +50,4 @@
 24
 ```
 
-출처 : [https://algospot.com/judge/problem/read/BOGGLE](https://algospot.com/judge/problem/read/BOGGLE)
+출처 : [https://algospot.com/judge/problem/read/HANOI4](https://algospot.com/judge/problem/read/HANOI4)
