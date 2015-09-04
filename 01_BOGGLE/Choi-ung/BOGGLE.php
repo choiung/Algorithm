@@ -131,7 +131,7 @@
 	    			{
 	    				$pivot_x = $stack[count($stack)-1][0];
     					$pivot_y = $stack[count($stack)-1][1];
-    					//$dir = $stack[count($stack)-1][2];
+    					$dir = $stack[count($stack)-1][2];
     					
 	    				// -1 : 범위 초과
 	    				// 0 : 못찾음
@@ -166,7 +166,7 @@
 					    		$tmp = array();
 					    		$tmp[0] = $x;
 					    		$tmp[1] = $y;
-					    		$tmp[2] = $dir;
+					    		$tmp[2] = 1;
 					    		
 					    		$stack[] = $tmp;
 					    		
@@ -189,7 +189,7 @@
 	    				
 	    				echo "$word_arr[$i] ";
 	    			}
-	    			if($result == count($word_arr)-1)
+	    			if($result == count($word_arr))
 	    				echo "성공 \n";
 	    			else 
 	    				echo "실패 \n";
